@@ -1,0 +1,15 @@
+#mabt{
+	background-color: rgba(55,55, 0, 0.1);
+	
+	height: 100%;
+}
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+#mabt p{
+	font-size: 130%;
+	white-space: 23px;
+	line-height: 35px;
+}

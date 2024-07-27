@@ -270,3 +270,21 @@ font-size: 170%;
 #sc a{
 	color: white;
 }
+#pros{
+	height: 250px;
+	
+}
+.pr{
+	height: 250px;
+	width: 40%;
+	float: left;
+	margin-left: 7%;
+}
+.pr img{
+	height: 100%;
+	width: 100%;
+	box-shadow: 1px 1px 4px black;
+}
+#ser p{
+	line-height: 40px;
+}
