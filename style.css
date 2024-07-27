@@ -56,7 +56,7 @@ span{
 }
 @media only screen and (max-width:350px){
 	.submenu a{
-		font-size: 13px;
+		font-size: 10px;
 	}
 	#logo{
 		font-size: 4px;
