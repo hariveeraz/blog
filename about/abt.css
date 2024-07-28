@@ -13,3 +13,64 @@
 	white-space: 23px;
 	line-height: 35px;
 }
+#menu{
+	height: 50px;
+	width: 100%;
+	background-color: black;
+	box-shadow: 4px 4px 20px white;
+
+}
+#submenu{
+	height: 50px;
+	width: 75%;
+/*	background-color: orange;*/
+float: left;
+
+}
+.submenu{
+	height: 50px;
+	width: 20%;
+/*	background-color: white;*/
+	float: left;
+	padding-top: 10px;
+	text-align: left;
+}
+.submenu a{
+	color: white;
+	font-size: 120%;
+	text-decoration: none;
+
+}
+.submenu a:hover{
+	font-size: 160%;
+
+}
+#logo{
+	height: 50px;
+	width: 20%;
+	float: left;
+	text-align: left;
+	padding-top: 10px;
+}
+span{
+	font-size: 120%;
+	color: red;
+/*	font-weight: bold;*/
+/*	font-family: algerian;*/
+	text-shadow: 2px 2px 3px silver;
+}
+@media only screen and (max-width:350px){
+	.submenu a{
+		font-size: 10px;
+	}
+	#logo{
+		font-size: 3px;
+		padding-top: 15px;
+	}
+}
+#logo b{
+	color: white;
+}
+#logo i{
+	color: white;
+}
