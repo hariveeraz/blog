@@ -1,8 +1,9 @@
 #menu{
 	height: 50px;
 	width: 100%;
-	background-color: lightblue;
-/*	box-shadow: 4px 4px 20px red;*/
+	background-color: black;
+	box-shadow: 4px 4px 20px white;
+
 }
 *{
 	box-sizing: border-box;
@@ -31,7 +32,7 @@ float: left;
 	text-align: left;
 }
 .submenu a{
-	color: black;
+	color: white;
 	font-size: 120%;
 	text-decoration: none;
 
@@ -48,18 +49,18 @@ float: left;
 	padding-top: 10px;
 }
 span{
-	font-size: 110%;
-	color: blue;
+	font-size: 120%;
+	color: red;
 /*	font-weight: bold;*/
 /*	font-family: algerian;*/
-	text-shadow: 1px 1px 1px silver;
+	text-shadow: 2px 2px 3px silver;
 }
 @media only screen and (max-width:350px){
 	.submenu a{
 		font-size: 10px;
 	}
 	#logo{
-		font-size: 4px;
+		font-size: 3px;
 		padding-top: 15px;
 	}
 }
@@ -72,10 +73,10 @@ span{
 
 }
 #logo b{
-	color: red;
+	color: white;
 }
 #logo i{
-	color: black;
+	color: white;
 }
 #abt{
 	margin-top: 3%;
@@ -93,8 +94,9 @@ color: red;
 	color: black;
 }
 #abt button{
-	background-color: red;
+	background-color: black;
 	height: 30px;
+	color: white;
 	width: 15%;
 	border-radius: 20px;
 	border: none;
@@ -104,7 +106,8 @@ color: red;
 	font-size: 80%;
 }
 #abt button:hover{
-	box-shadow: 4px 4px 9px black, 2px 2px 5px white inset;;
+	box-shadow: 4px 4px 9px black, 2px 2px 5px white inset;
+/*	font-size: %;*/
 
 }
 #pro u{
@@ -113,8 +116,9 @@ color: red;
 
 }
 #pro button{
-	background-color: red;
+	background-color: brown;
 	height: 30px;
+	color: bisque;
 	width: 15%;
 	border-radius: 20px;
 	border: none;
@@ -135,7 +139,7 @@ color: red;
 	border-radius: 10px;
 }
 #ser button{
-	background-color: red;
+	background-color:seagreen;
 	height: 30px;
 	width: 15%;
 	border-radius: 20px;
@@ -287,4 +291,7 @@ font-size: 170%;
 }
 #ser p{
 	line-height: 40px;
+}
+.pr img:hover{
+box-shadow: 4px 4px 6px black;
 }
