@@ -136,3 +136,14 @@ span{
 	box-shadow: 4px 4px 20px white;
 
 }
+#sc{
+	height: 30px;
+	background-color: black;
+	color: white;
+	font-size: 120%;
+	text-align: center;
+	margin-top: 20px;
+}
+#sc a{
+	color: white;
+}
